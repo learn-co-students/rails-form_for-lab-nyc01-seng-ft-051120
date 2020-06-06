@@ -1,0 +1,13 @@
+<h1>School Classes!</h1>
+ <ul>
+ <% @school_classes.each do |school| %>
+   <li><%= link_to school.title, school_class_path(school.id)%></li>
+   
+   <%end%>
+   </ul>
+
+   <h5><%= link_to "CREATE CLASS", new_school_class_path %></h5>
+   <h5><%= link_to "STUDENT SECTION", students_path%></h5>
+
+
+   
