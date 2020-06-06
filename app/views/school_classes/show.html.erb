@@ -1,0 +1,7 @@
+<h1><%= @school_class.title %> Show Page</h1>
+
+<p>Subject: <%= @school_class.title %></p>
+<p>Room Number: <%= @school_class.room_number %></p>
+
+<p><%= link_to "INDEX", school_classes_path %></p>
+<p><%= link_to "EDIT CLASS", edit_school_class_path(@school_class.id) %></p>

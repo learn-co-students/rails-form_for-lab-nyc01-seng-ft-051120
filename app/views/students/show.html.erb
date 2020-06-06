@@ -1,0 +1,6 @@
+<h1>Student Show Page</h1>
+<p><%= @student.first_name %></p>
+ <p><%= @student.last_name %></p>
+
+ <p><%= link_to "INDEX", students_path %></p>
+ <p><%= link_to "EDIT", edit_student_path(@student.id) %></p>
