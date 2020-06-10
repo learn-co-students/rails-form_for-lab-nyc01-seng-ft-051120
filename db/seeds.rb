@@ -5,3 +5,22 @@
 #
 #   cities = City.create([{ name: 'Chicago' }, { name: 'Copenhagen' }])
 #   Mayor.create(name: 'Emanuel', city: cities.first)
+# Faker::ProgrammingLanguage.name 
+# Faker::Name.first_name 
+# Faker::Name.last_name 
+# Faker::Number.number(digits: 2)
+
+# SchoolClass.new(title: Faker::ProgrammingLanguage.name, room_number: Faker::Number.number(digits: 2))
+# SchoolClass.new(title: Faker::ProgrammingLanguage.name, room_number: Faker::Number.number(digits: 2))
+# SchoolClass.new(title: Faker::ProgrammingLanguage.name, room_number: Faker::Number.number(digits: 2))
+# SchoolClass.new(title: Faker::ProgrammingLanguage.name, room_number: Faker::Number.number(digits: 2))
+# SchoolClass.new(title: Faker::ProgrammingLanguage.name, room_number: Faker::Number.number(digits: 2))
+# SchoolClass.new(title: Faker::ProgrammingLanguage.name, room_number: Faker::Number.number(digits: 2))
+
+
+# Student.new(first_name: Faker::Name.first_name, last_name: Faker::Name.last_name)
+# Student.new(first_name: Faker::Name.first_name, last_name: Faker::Name.last_name)
+# Student.new(first_name: Faker::Name.first_name, last_name: Faker::Name.last_name)
+# Student.new(first_name: Faker::Name.first_name, last_name: Faker::Name.last_name)
+# Student.new(first_name: Faker::Name.first_name, last_name: Faker::Name.last_name)
+# Student.new(first_name: Faker::Name.first_name, last_name: Faker::Name.last_name)
